@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="ExamenFinal.paginaprincipal.Site1" %>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registros Tecnicos</title>
+    <link rel="stylesheet" href="../css/StyleSheet1.css">
+
+
+</head>
+<body>
+
+    <header>
+       
+        <nav>
+         
+            <a href="Home.aspx"id ="inicio">Inicio</a>
+           
+            <a href="Empleado.aspx"id="detalle">empleado</a>
+             <a href="Asignacion.aspx"id="asignaciones">Asignaciones</a>
+            <a href=" proyecto.aspx"id="equipo">proyecto</a>
+            <a href="Usuario.aspx"id="usuario">Usuarios</a>
+
+        </nav>
+        <style>
+            #inicio {
+                background-color: #4CAF50;
+    color: white; 
+    font-weight: bold; 
+    
+            }
+            nav #inicio:hover {
+                background-color: crimson;
+            }
+ 
+        </style>
+     
+    </header>
+    <main>
+        <asp:ContentPlaceHolder ID="menuprincipal" runat="server"></asp:ContentPlaceHolder>
+    </main>
+
+ 
+
+</body>
+
+</html>
+

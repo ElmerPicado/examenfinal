@@ -1,0 +1,92 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input[type="number"],
+input[type="date"],
+input[type="text"],
+input[type="email"],
+button {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+    input[type="number"]:focus,
+    input[type="date"]:focus,
+    input[type="text"]:focus,
+    input[type="email"]:focus {
+        border-color: cornflowerblue;
+    }
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+    button:active {
+        background-color: #3e8e41;
+    }
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+#GridView1 {
+    width: 90%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    #GridView1 th,
+    #GridView1 td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    #GridView1 th {
+        background-color: #f4f4f4;
+        font-weight: bold;
+    }
+
+    #GridView1 tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    #GridView1 tr:hover {
+        background-color: #f1f1f1;
+    }
